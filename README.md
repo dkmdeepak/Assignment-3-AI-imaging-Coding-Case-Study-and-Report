@@ -49,14 +49,3 @@ hidden.
 Open `biomedical_pipeline.ipynb` and run all cells, top to bottom. Figures
 go into `figs/`, and CSV/JSON results go into `out/` — these are what the
 report should use.
-
-## Results (from the run included in this copy)
-
-| Model                   | Val Dice | Val IoU | Test Dice | Test IoU |
-|-------------------------|----------|---------|-----------|----------|
-| Otsu + morphology       | 0.9742   | 0.9497  | 0.9749    | —        |
-| **U-Net (BCE + Dice)**  | **0.9927** | **0.9856** | **0.9918** | **0.9838** |
-
-Loss ablation on the U-Net (25 epochs each): BCE 0.9922, soft Dice 0.9905,
-BCE+Dice 0.9927 (best). Full numbers, per-image scores, object count error,
-and the robustness check (blur / low contrast) are all saved in `out/`.
