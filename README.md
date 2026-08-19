@@ -10,10 +10,10 @@ Educational use only. Not for real medical diagnosis.
 
 ## Files
 
-- `biomedical_pipeline.ipynb` — the whole pipeline in one notebook (Tasks 1–4, plus an extra robustness check)
-- `nuclei_dataset.zip` — 112 images + 4 damaged copies
-- `figs/` — figures saved when the notebook runs
-- `out/` — CSV/JSON results saved when the notebook runs
+- `biomedical_pipeline.ipynb` 
+- `nuclei_dataset.zip`
+- `figs/` 
+- `out/` 
 
 There is **no separate code package** — every function is defined directly
 inside the notebook, in the cell for the task it belongs to. This means
